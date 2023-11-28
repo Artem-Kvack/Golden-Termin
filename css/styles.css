@@ -1,0 +1,162 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.header {
+  display: flex;
+}
+.header-logo {
+  width: 1000px;
+  color: #FED136;
+text-align: center;
+font-family: Bilbo Swash Caps;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 41px; /* 113.889% */
+letter-spacing: 1.3px;
+}
+.header-nav-list {
+   display: flex;
+  gap: 10px;
+}
+.header-nav-list-item {
+  color: #FED136;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 41px; /* 292.857% */
+text-transform: uppercase;
+}
+.section {
+  display: flex;
+}
+.section-service {
+  color: #222;
+width: 223px;
+height: 75px;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px; /* 187.5% */
+letter-spacing: -1px;
+text-transform: uppercase;
+}
+.section-list {
+  display: flex;
+  justify-content: center;
+}
+.section-list-title {
+  margin-top: 15px;
+  color: #222;
+ width: 274px ;
+ height: 185px;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px; 
+letter-spacing: -0.45px;
+}
+.section-list-text {
+  color: #777;
+
+text-align: center;
+font-family: RobotoSlab;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.35px;
+}
+.main-section {
+  display: flex;
+  background-color: #222;
+  
+}
+.main-section-title {
+  color: #FFF;
+ justify-content: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1px;
+text-transform: uppercase;
+justify-content: center;
+}
+.main-section-name {
+  width: 455.00018px;
+  height: 49.99998px;
+}
+.main-section-email {
+  width: 457px;
+  height: 53px;
+}
+.main-section-subject {
+  width: 457px;
+  height: 53px;
+}
+.main-section-comment {
+  width: 458px;
+  height: 212px;
+}
+.main-section-btn {
+background-color: #FED136;
+width: 242px;
+height: 68px;
+color: #FFF;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
